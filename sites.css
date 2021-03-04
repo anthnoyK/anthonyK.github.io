@@ -1,0 +1,151 @@
+@media screen and (min-width: 768px) {
+    body {
+    }
+
+    div.content {
+        float: left;
+        margin: 1em 0 1em 2em;
+    }
+    div.content p.desc {
+        font-size: 1.5em;
+    }
+    div.content h3 {
+        font-size: 2em;
+    }
+    div.content img {
+        float: left;
+        margin: 10px;
+    }
+        div.content div.col-sm-6 {
+            margin: 5em 0 0 0;
+            padding: 0;
+        }
+
+            div.content div.col-sm-6:hover {
+                border: solid;
+            }
+
+        div.content p {
+            font-size: 2.5em;
+            float: unset;
+            color: #000000;
+        }
+
+        div.content a:hover {
+            text-decoration: none;
+        }
+
+    hr {
+        height: 5px;
+        color: black;
+    }
+    /*nav styles*/
+    button.btn {
+        color: #023c5b;
+        font-size: 2em;
+        height: 1.4em;
+    }
+
+    header > .row > .col-sm-12 {
+        background-color: #023c5b;
+        height: 6em;
+    }
+
+    span.glyphicon {
+        color: aliceblue;
+        font-size: 2em;
+    }
+
+    .glyphicon:hover {
+        color: #666;
+    }
+
+    .glyphicon:active {
+        color: darkgray;
+    }
+
+    header p {
+        font-size: 1em;
+        color: aliceblue;
+        margin: 0.7em;
+        font-style: italic;
+        font-family: crimson;
+    }
+
+    #logo {
+        display: inline;
+        float: right;
+    }
+
+    #littleLogo {
+        display: none;
+        visibility: hidden;
+    }
+
+    .navbar {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .horizontalNavigation {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    body {
+    }
+
+    .content {
+    }
+
+    /*nav styles*/
+    header > .row > .col-sm-12 {
+        background-color: #023c5b;
+        height: 4em;
+    }
+
+    span.glyphicon {
+        margin: 0.4em 0 0 0.3em;
+        color: aliceblue;
+        font-size: 1em;
+    }
+
+    .glyphicon:hover {
+        color: #d0d6dd;
+    }
+
+    .glyphicon:active {
+        color: darkgray;
+    }
+
+    header p {
+        font-size: 1em;
+        color: aliceblue;
+        margin: 0.7em;
+        font-style: italic;
+        font-family: crimson;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #littleLogo {
+        display: inline;
+        float: right;
+        height: 1.9em;
+    }
+
+    .navbar {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .horizontalNavigation {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+}
